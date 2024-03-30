@@ -1,0 +1,82 @@
+.projects {
+    padding: 5rem 0;
+   padding-top: 6rem;
+}
+
+.projects h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project-navigation{
+    border: 2px solid var(--accent);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.project-navigation div {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: var(--white);
+    transition: all 0.2s ease;
+}
+
+.project-navigation div:hover{
+    background: var(--accent);
+}
+
+.design-projects, .mobile-projects{
+    border-left: 2px solid var(--accent);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .project-navigation {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-navigation div {
+        width: 50%;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .project-navigation {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-navigation div {
+        width: 50%;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    }
+}

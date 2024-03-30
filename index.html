@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/about-section.css">
+    <link rel="stylesheet" href="styles/projects-section.css">
+    <link rel="stylesheet" href="styles/contacts-section.css">
+    <link rel="stylesheet" href="styles/summary-section.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f0c008e79.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="top-section">
+        <header id="header">
+            <div class="container">
+                <nav class="flex align-center justify-right">
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about-me">About Me</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#contacts">Contact Me</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="summary">
+            <div class="container">
+                <h1>LUCY KENDI</h1>
+                <h2>I enjoy turning ideas into impactful solutions.</h2>
+                    <button class="btn">Download My Resume</button>
+                </div>
+        </section>
+    </section>
+
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello, World! I'm a tech enthusiast who enjoys problem-solving and transforming ideas into digital realities. Whether it’s writing clean and efficient code or designing intuitive, user-friendly products, I approach each challenge with an open mind, creativity and precision. With an insatiable thirst for learning new things, a passion for innovation, and a love for crafting solutions that leave a lasting impact, I am dedicated to pushing the boundaries of what’s possible in the ever-evolving landscape of tech. Let's connect and build something awesome together!
+            </p>
+            <div class="socials flex align-center justify-center">
+                <a href="https://github.com/lkendi" target="_blank"><i class="fab fa-github fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/lucy-kendi" target="_blank"><i class="fab fa-linkedin fa-2xl"></i></a>
+                <a href="mailto:lkendi003@gmail.com" target="_blank"><i class="fa-regular fa-envelope fa-2xl"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-navigation flex justify-between align-center">
+                <div class="python-projects flex-1" id="python-projects">Python Projects</div>
+                <div class="design-projects flex-1" id="design-projects">Design Projects</div>
+                <div class="mobile-projects flex-1" id="design-projects">Mobile Projects</div>
+            </div>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="python_project1.jpg" alt="Python Project 1">
+                    <p>Python Project 1 Description</p>
+                </div>
+                <div class="project">
+                    <img src="python_project2.jpg" alt="Python Project 2">
+                    <p>Python Project 2 Description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="flex justify-center align-center">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Lucy Kendi. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>

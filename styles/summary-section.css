@@ -1,0 +1,49 @@
+.summary{
+    padding: 1.6rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 7rem;
+    position: relative;
+    z-index: 1;
+}
+
+.summary h1{
+    font-size: 9rem;
+}
+
+.summary h2{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .summary{
+        margin-bottom: 5rem;
+    }
+    .summary h1 {
+        font-size: 9rem;
+        line-height: 9rem;
+    }
+
+    .summary h2 {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .summary{
+        margin-bottom: 5rem;
+        margin-top: 1rem;
+    }
+    .summary h1 {
+        font-size: 10rem;
+        line-height: 10rem;
+    }
+
+    .summary h2 {
+        font-size: 1.4rem;
+    }
+}
