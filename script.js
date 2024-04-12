@@ -3,7 +3,7 @@ window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
 
     if (scrollPosition > 100) {
-        header.classList.add('scrolled')
+        header.classList.add('scrolled');
     }
     else {
         header.classList.remove('scrolled');

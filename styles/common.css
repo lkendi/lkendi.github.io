@@ -61,9 +61,17 @@ body{
 
 }
 
+a{
+    transition: all 0.2s ease-in-out;
+}
+
 .btn:hover{
     background-color: transparent;
     color: var(--accent);
+}
+
+p{
+    text-wrap: wrap;
 }
 
 
