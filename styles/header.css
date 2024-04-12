@@ -54,14 +54,37 @@ header nav a:hover{
     color: var(--accent);
 }
 
+@media only screen and (max-width: 506px) {
 
-@media only screen and (max-width: 768px) {
+    header .container{
+        padding-left: 0;
+    }
+
+    header nav{
+        margin-left: 0;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav a {
+        font-size: 0.8rem;
+        margin-left: 0;
+        margin-right: 0.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 507px) and (max-width: 768px) {
+    h1 {
+        font-size: 1.2rem;
+      }
     header{
         display: flex;
     }
     header nav a{
         font-size: 1rem;
-        margin-right: 1.5rem;
+        margin-right: 1rem;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -69,7 +92,3 @@ header nav a:hover{
         display: flex;
     }
 }
-
-
-
-
