@@ -64,6 +64,11 @@ body{
 
 a{
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--white);
 }
 
 .btn:hover{
